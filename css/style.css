@@ -1,0 +1,52 @@
+.card-title,
+.text-dentist {
+    color: #2456a6;
+}
+
+.card-footer {
+    background-color: #2456a6 !important;
+}
+
+.card {
+    border: 1px solid #2456a6 !important;
+}
+
+.border-top {
+    border-top: 1px solid #2456a6 !important
+}
+
+.bg-primary {
+    background-color: #2456a6 !important;
+}
+
+.badge {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    padding: 18px;
+    margin: 10px;
+}
+
+.bg-primary {
+    color: #fff !important;
+}
+
+.bg-dentist {
+    background-color: #2456a6 !important;
+}
+
+.bg-dentist .nav-link {
+    color: white !important;
+}
+
+.bg-dentist .nav-link {
+    color: white !important;
+}
+
+.bg-dentist .nav-link {
+    color: white !important;
+}
+
+.bg-dentist .nav-link:hover {
+    text-decoration: underline;
+
+}

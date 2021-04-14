@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Hi Dentist - A dental clinic that is heavy on cavities and light on your budget</title>
+    
+    {% include Theme.html %}
+</head>
+
+<body style="background-color: #f8f9fa !important;">
+    <!-- Navigation -->
+    {% include Navigation.html %}
+    
+    <div class="container" style="margin-top: 80px !important;">
+       
+        <h5>{{ page.title }}</h5>
+        <!--Main-->
+        <main class="pt-4 border-top">
+            {{ content }}
+        </main>
+
+        {% include Footer.html %}
+    </div>
+
+ 
+
+</body>
+{% include Scripts.html %}
+
+</html>
