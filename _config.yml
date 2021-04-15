@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: HiDentist - A dental clinic that is heavy on cavities and light on your budget
+title: HIDentist.in | A dental clinic that is heavy on cavities and light on your budget
 email: hidentist.delhi@gmail.com
 description: A dental clinic that is heavy on cavities and light on your budget.
   #Write an awesome description for your new site here. You can edit this
