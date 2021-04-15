@@ -1,18 +1,16 @@
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
+      "@type": "Dentist",
       "url": "{{ site.url }}{{ page.url }}",
       "name": {{ page.title | jsonify }},
       "headline": {{ page.title | jsonify }},
-      "keywords": {{ page.categories | join: ',' | jsonify }},
-      "description": " A dental clinic that is heavy on cavities and light on your budget",
+      "keywords": HiDentist, Dental Clinic in New Delhi, Dental Clinic in Malviya Nagar, Dental Clinic, Dental Clinic with 5 star ratings,
+      "description": "HiDentist.in | Dental Clinic in New Delhi | A dental clinic that is heavy on cavities and light on your budget.",
       "articleBody": {{ page.content | strip_html | jsonify }},
-      "datePublished": {{ page.PostDate | jsonify }},
-      "dateModified": {{ page.last_modified_at | default: page.PostDate | jsonify }},
       "author": {
         "@type": "Person",
-        "name": {{ page.author | jsonify }},
+        "name": "HiDentist",
         "givenName": {{ site.author_first_name | jsonify }},
         "familyName": {{ site.author_last_name | jsonify }},
         "email": {{ site.email | jsonify }}
@@ -37,6 +35,20 @@
         "width": {{ page.img_width | default: site.img_width }},
         "height": {{ page.img_height | default: site.img_height }},
         "url": "{{ site.url }}{{ page.img_url | default: site.img_url }}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-116 LGF, Near Pt. MMM hospital, Block B, Block M, Malviya Nagar",
+        "addressLocality": "Delhi ",
+        "addressRegion": " New Delhi",
+        "postalCode": "110017",
+        "addressCountry": "India"
+      },
+      "openingHours": "Mo, Tu, We, Th, Fr, Sa 09:30-08:30 Su 09:00-02:00",
+      "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Mobile Phone",
+      "telephone": "+91-9911175654"
       }
     }
     </script>
