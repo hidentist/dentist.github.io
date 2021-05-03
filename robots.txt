@@ -1,0 +1,4 @@
+Sitemap: https://hidentst.in/sitemap.xml
+
+User-agent: *
+
