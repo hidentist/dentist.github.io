@@ -19,7 +19,7 @@
     background-color: #2456a6 !important;
 }
 
-.badge {
+.dentist-badge {
     text-transform: uppercase;
     font-weight: 400 !important;
     padding: 18px;
@@ -99,4 +99,7 @@ img {
     border-radius: 22%;
     margin-left: 4px;
     padding: 3px;
+}
+.about-img {
+    border-radius : 70px;
 }
