@@ -28,10 +28,17 @@
 
 .bg-primary {
     color: #fff !important;
+    font-weight: 700 !important;
+    font-family: system-ui !important;
 }
 
 .bg-dentist {
     background-color: #2456a6 !important;
+}
+
+.bg-warning {
+    background-color: #e3ba26 !important;
+    font-weight: 700 !important;
 }
 
 .bg-dentist .nav-link {
